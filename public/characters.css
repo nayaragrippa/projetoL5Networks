@@ -1,0 +1,30 @@
+html, body
+{
+width: 100vw;
+margin: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('assets/star-wars-7680X4320-wallpaper-j3k3ld9uf5xk4sxm.jpg');
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  h1 {
+    color: yellow;
+  }
+
+  .mainhud{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 20px;
+    flex: 1 1 300px;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius:30px;
+  }
